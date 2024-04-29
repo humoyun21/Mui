@@ -43,11 +43,6 @@ const index = () => {
     }
   };
 
-  useEffect(() => {
-    if (localStorage.getItem("token")) {
-      navigate("/home");
-    }
-  }, []);
 
   return (
     <>
